@@ -232,6 +232,22 @@ footer {
 .home .intro p {
   padding: 0 15px;
 }
+@media (max-width: 500px) {
+  .home .space-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home .space-images .blast {
+    width: 100%;
+  }
+  .home .space-images .launch {
+    display: none;
+  }
+  .home .space-images .sky {
+    display: none;
+  }
+}
 .home .space-images {
   display: flex;
   flex-wrap: wrap;
