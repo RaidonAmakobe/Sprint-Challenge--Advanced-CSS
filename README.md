@@ -31,16 +31,41 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
-
+-------------------------------------------------------------------
 1. What is the difference between an adaptive website and a fully responsive website?
+-------------------------------------------------------------------
+
+A fully responsive website is built to accomodate a wide variety of machines using responsive units while an adaptive website can have some fixed variables and some fluid where there are breakpoints
+-------------------------------------------------------------------
 
 2. Describe what it means to be mobile first vs desktop first.
+-------------------------------------------------------------------
 
+Mobile first design means to start constructing your webpage from the mobile view upwards.
+Desktop first design means to begin constructing your webpage from the desktop view downwards.
+
+-------------------------------------------------------------------
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+-------------------------------------------------------------------
 
+font-size: 62.5% makes using REM units similar to using px units. For example (3.4rem = 34px)
+
+-------------------------------------------------------------------
 4. How would you describe preprocessing to someone new to CSS?
+-------------------------------------------------------------------
 
+Preprocessing allows you to make your CSS more readable and flexible, you can do more things with preprocessors than vanilla CSS.
+First off, you write your code in preprocessor syntax (varies depending on your choice). Second, a compiler will translate all that code
+into CSS for your HTML page to read.
+
+-------------------------------------------------------------------
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+-------------------------------------------------------------------
+
+My favorite concept in preprocessing is mixins and parametric mixins because they make your CSS code 100% cleaner.
+At first I only had a vague grasp on percent based programming, but now I understand much better.
+
+-------------------------------------------------------------------
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
