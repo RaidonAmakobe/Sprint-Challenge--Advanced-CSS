@@ -186,8 +186,7 @@ p {
   font-size: 1.4rem;
   text-decoration: none;
 }
-/* @media (@phone) bugs out */
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .navbar {
     display: flex;
     flex-direction: column;
@@ -215,7 +214,7 @@ footer {
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .home .intro {
     display: flex;
     flex-direction: column;
@@ -232,7 +231,7 @@ footer {
 .home .intro p {
   padding: 0 15px;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .home .space-images {
     display: flex;
     justify-content: center;
@@ -314,7 +313,7 @@ footer {
   height: auto;
   border-radius: 10px;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .home .walk {
     padding: 15px;
     margin-top: 60px;
