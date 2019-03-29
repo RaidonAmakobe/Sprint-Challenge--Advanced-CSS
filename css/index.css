@@ -178,8 +178,13 @@ p {
   display: flex;
   justify-content: space-around;
   width: 25%;
-  font-size: 1.4rem;
   margin-bottom: 1%;
+}
+.navbar nav a {
+  font: #454A59;
+  color: black;
+  font-size: 1.4rem;
+  text-decoration: none;
 }
 footer {
   color: #22283B;
