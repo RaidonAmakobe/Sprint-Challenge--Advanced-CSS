@@ -174,12 +174,6 @@ p {
   font-size: 5rem;
   margin-bottom: 1%;
 }
-@media ('max-width: 500px') {
-  .navbar nav {
-    display: flex;
-    width: 100%;
-  }
-}
 .navbar nav {
   display: flex;
   justify-content: space-around;
@@ -192,6 +186,25 @@ p {
   font-size: 1.4rem;
   text-decoration: none;
 }
+/* @media (@phone) bugs out */
+@media (max-width: 500px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .navbar .spacewalkers {
+    font-size: 3rem;
+    margin-top: 2%;
+    margin-bottom: 3%;
+  }
+  .navbar nav {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin-bottom: 3%;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -201,6 +214,17 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 500px) {
+  .home .intro {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .home .intro img {
+    width: 100%;
+  }
 }
 .home .intro h2 {
   padding: 15px;
